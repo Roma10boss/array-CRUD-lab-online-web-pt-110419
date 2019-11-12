@@ -1,21 +1,24 @@
 def create_an_empty_array
-  
+  array =[]
 end
 
 def create_an_array
-  
+  array [1,2,3,4]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array =[5,6,7]
+  array << 8
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array = ["love"]
+  array.unshift ("I")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  array = ["l","lovely"]
+  array.shift[0]
 end
 
 def remove_element_from_start_of_array(array)
